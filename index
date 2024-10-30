@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>求职平台与日本就业制度变迁</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.6.1/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background: #f5f5f5;
+        }
+        .slide {
+            border: 1px solid #ddd;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-bottom: 20px;
+        }
+        .mermaid {
+            background: white;
+            padding: 20px;
+            border-radius: 4px;
+            margin: 20px 0;
+            box-shadow: inset 0 0 3px rgba(0,0,0,0.1);
+        }
+        .explanation {
+            background: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 15px 0;
+            font-size: 0.95em;
+            color: #2c3e50;
+        }
+        .timeline {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 理论框架 -->
+    <div class="slide">
+        <h2>理论框架</h2>
+        <div class="mermaid">
+        graph TD
+            A[理论整合] --> B[制度同构理论]
+            A --> C[组织场域理论]
+            A --> D[交易成本理论]
+            B --> E[强制性]
+            B --> F[模仿性]
+            B --> G[规范性]
+            C --> H[意义系统]
+            C --> I[互动模式]
+            D --> J[信息成本]
+            D --> K[匹配效率]
+        </div>
+        <div class="explanation">
+            理论框架整合了三个核心理论视角。制度同构理论帮助我们理解平台如何推动组织行为的趋同；组织场域理论解释了平台如何构建新的互动空间；交易成本理论则阐明了平台的效率提升机制。
+        </div>
+    </div>
+
+    <!-- 历史分期分析 -->
+    <div class="slide">
+        <h2>历史分期分析</h2>
+        <div class="timeline">
+            <div class="mermaid">
+            timeline
+                1990 : 变革期
+                      : 泡沫经济崩溃
+                      : Windows 95
+                2000 : 多元化期
+                      : IT泡沫
+                      : 平台普及
+                2010 : 平台发展期
+                      : 算法匹配
+                      : 数据分析
+                2020 : 数字转型期
+                      : 在线招聘
+                      : 远程面试
+            </div>
+        </div>
+        <div class="explanation">
+            历史分期展现了平台化过程的四个关键阶段。每个阶段都有其特定的技术条件和制度特征：90年代是变革的启动期，2000年代见证了多元化的发展，2010年代平台功能日益完善，2020年代则迎来全面的数字转型。
+        </div>
+    </div>
+
+    <!-- 平台化影响 -->
+    <div class="slide">
+        <h2>平台化影响</h2>
+        <div class="mermaid">
+        graph TD
+            A[平台影响] --> B[制度层面]
+            A --> C[实务层面]
+            B --> D[信息结构化]
+            B --> E[互动标准化]
+            B --> F[评价体系化]
+            C --> G[成本降低]
+            C --> H[效率提升]
+            C --> I[流程优化]
+        </div>
+        <div class="explanation">
+            平台化对就业制度的影响体现在制度和实务两个层面。在制度层面，平台通过信息结构化、互动标准化和评价体系化重塑了就业市场的运作规则。在实务层面，平台显著降低了招聘成本，提高了匹配效率，优化了选拔流程。
+        </div>
+    </div>
+
+    <!-- 实证分析结果 -->
+    <div class="slide">
+        <h2>实证分析结果</h2>
+        <div class="mermaid">
+        graph TD
+            A[实证发现] --> B[平台功能演变]
+            A --> C[参与者行为变化]
+            A --> D[制度环境转型]
+            B --> E[从信息媒介到制度构建者]
+            C --> F[企业招聘行为标准化]
+            C --> G[求职者行为程序化]
+            D --> H[监管方式改变]
+            D --> I[新规范形成]
+        </div>
+        <div class="explanation">
+            实证研究揭示了三个层面的变化。平台功能从单纯的信息媒介转变为制度构建者；参与者行为呈现出标准化和程序化趋势；制度环境也随之发生改变，形成了新的监管逻辑和行为规范。
+        </div>
+    </div>
+
+    <!-- 历史演进机制 -->
+    <div class="slide">
+        <h2>历史演进机制</h2>
+        <div class="mermaid">
+        flowchart LR
+            A[技术变革] --> B[平台出现]
+            B --> C[效率提升]
+            C --> D[制度化]
+            D --> E[新秩序形成]
+            F[外部压力] --> B
+            G[制度惯性] --> D
+        </div>
+        <div class="explanation">
+            历史演进呈现出一个复杂的互动过程。技术变革和外部压力推动平台的出现，平台通过提升效率获得正当性，在与制度惯性的互动中逐步制度化，最终形成新的制度秩序。
+        </div>
+    </div>
+
+    <!-- 未来展望 -->
+    <div class="slide">
+        <h2>未来展望</h2>
+        <div class="mermaid">
+        graph TD
+            A[未来研究方向] --> B[跨国比较研究]
+            A --> C[新技术影响研究]
+            A --> D[制度创新研究]
+            B --> E[制度差异分析]
+            C --> F[AI影响评估]
+            D --> G[混合制度设计]
+        </div>
+        <div class="explanation">
+            未来研究可以从三个方向深化。首先是开展跨国比较研究，分析不同制度背景下平台化的差异；其次是研究新兴技术特别是AI对就业制度的影响；最后是探索数字时代的制度创新方式。
+        </div>
+    </div>
+
+    <!-- 结论 -->
+    <div class="slide">
+        <h2>结论</h2>
+        <div class="mermaid">
+        graph TD
+            A[核心发现] --> B[平台的制度性转变]
+            A --> C[数字时代制度同构]
+            A --> D[混合场域形成]
+            E[理论意义] --> F[理论框架创新]
+            E --> G[实践指导价值]
+        </div>
+        <div class="explanation">
+            研究的核心发现包括平台从市场工具向制度性行为者的转变、数字时代特有的制度同构机制，以及新型混合场域的形成。这些发现不仅推进了理论发展，也为实践提供了重要指导。
+        </div>
+    </div>
+
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose',
+            flowchart: {
+                curve: 'basis'
+            }
+        });
+    </script>
+</body>
+</html>
